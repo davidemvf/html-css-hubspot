@@ -101,7 +101,7 @@ div.get_free p:last-of-type{
   font-size: 14px;
 }
 
-div.centering img{
+#office{
   float: right;
   height: 300px;
   margin:235px 0 70px 0;
@@ -305,4 +305,73 @@ div.gemini_boxes button{
   border: none;
   margin-bottom: 15px;
 
+}
+
+.third{
+  background-color: #00B5AD;
+  text-align: center;
+  height: 700px;
+  color: white;
+}
+
+section.third h2{
+  font-size: 40px;
+  padding-top: 150px;
+  padding-left: 260px;
+  padding-right: 260px;
+
+}
+
+section.third p{
+  padding-top: 30px;
+  padding-left: 250px;
+  padding-right: 250px;
+  font-size: 19px;
+}
+
+
+/* fourth section */
+.fourth{
+  background-color: #F5F8FA;
+}
+
+.customers{
+  width: 45%;
+  color: #33475B;
+  padding: 120px;
+  float: left;
+
+}
+
+div.customers h2{
+  font-size: 40px;
+  letter-spacing: 2px;
+
+}
+
+div.customers p{
+  font-size: 20px;
+  line-height: 30px;
+
+}
+
+.logos{
+  width: 55%;
+  /* height:200px; */
+  background-color: ;
+  float: left;
+  margin-top: 110px;
+}
+
+div.logos img{
+  width: 90px;
+  height: 30px;
+  float: left;
+  margin: 24px;
+}
+
+.fourth::after{
+  content:"";
+  display: table;
+  clear: both;
 }
