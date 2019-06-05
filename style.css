@@ -7,6 +7,7 @@
 .centering{
   width: 80%;
   margin: 0 auto;
+
 }
 
 .fixed{
@@ -19,9 +20,10 @@
 }
 
 .fixed_under{
-  width: 100vw;
+  /* width: 100vw; */
   height: 11vh;
 }
+
 
 /* header */
 
@@ -428,5 +430,108 @@ div.logos img{
   content: "";
   display: table;
   clear:both;
-  margin-bottom: 300px;
+  margin-bottom: 200px;
+}
+
+footer{
+  width: 100%;
+  /* height: 650px; */
+  background-color: #33475B;
+  color: #CBD6DA;
+}
+
+.footer_list{
+  width: calc(100% / 4);
+  /* height: 400px; */
+  /* background-color: red; */
+  /* border: 1px solid white; */
+  float: left;
+}
+
+div.footer_list ul{
+  list-style-type: none;
+  line-height: 40px;
+}
+ div.footer_list li:first-of-type{
+   font-size: 20px;
+   padding-top: 80px;
+ }
+div.footer_list ul li a{
+  text-decoration: none;
+  color: #CBD6DA;
+}
+
+div.footer_list button:first-of-type{
+  width: 174px;
+  height: 33px;
+  border: none;
+  border-radius: 3px;
+  color: black;
+}
+ .centering::after{
+   content: "";
+   display: table;
+   clear: both;
+
+ }
+
+.languages{
+  width: 60%;
+  margin: 0 auto;
+  /* height: 150px; */
+  /* background-color: red; */
+  text-align: center;
+}
+
+div.languages ul{
+  list-style-type: none;
+  padding-top: 70px;
+}
+
+div.languages ul li{
+  display: inline;
+  padding: 15px;
+
+}
+
+div.languages ul li a{
+  text-decoration: none;
+  color: #CBD6DA;
+  font-size: 20px;
+
+}
+
+#last_hr{
+  width: 80%;
+  margin: 30px auto;
+}
+
+#copy{
+  font-size: 13px;
+
+
+
+}
+
+.rel{
+  position: relative;
+  height: 200px;
+}
+
+div.rel ul{
+  list-style-type: none;
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+div.rel ul li{
+  display: inline;
+  margin-left: 15px;
+}
+
+div.rel ul li a{
+  text-decoration: none;
+  color:inherit;
+  font-size: 18px;
 }
