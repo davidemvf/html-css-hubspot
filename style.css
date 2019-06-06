@@ -13,11 +13,60 @@
 .fixed{
   background-color: #F5F8FA;
   width: 100vw;
-  height: 11vh;
+  height: 72px;
+  color: #516273;
   position: fixed;
   z-index: 1;
+}
+
+
+
+section.fixed img{
+  height: 25px;
+  position: absolute;
+  top: 36px;
+  transform: translate(0, -50%);
+}
+
+.vertical-centering{
+  position: absolute;
+  left: 30px;
+  top: 36px;
+  transform: translate(0, -50%);
 
 }
+
+div.vertical-centering hr{
+  display: inline;
+  margin: 3px 15px 3px 15px;
+}
+
+#fixed-right{
+  position: absolute;
+  top: 36px;
+  right: 0;
+  transform: translate(0, -50%);
+}
+
+#first_button{
+  width: 68px;
+  height: 35px;
+  background-color: white;
+  color: #FF7A59;
+  border: 1px solid #FF7A59;
+  border-radius: 3px;
+}
+
+#second_button{
+  width: 145px;
+  height: 35px;
+  background-color: #FF7A59;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+
 
 .fixed_under{
   /* width: 100vw; */
@@ -68,7 +117,6 @@ div.menu ul li a{
 
 .blue_section{
   width: 100%;
-  /* height: 300px; */
   background-color: #00A3BD;
   color: white;
 }
@@ -169,7 +217,6 @@ div.first_box p{
 
 .left{
   width: 40%;
-  /* height: 300px; */
   background-color: white;
   position: relative;
   display: inline-block;
@@ -235,7 +282,6 @@ div.right span{
 
 .centerin_boxes{
   width: 70%;
-  /* height: 300px; */
   margin: 0 auto;
 }
 
@@ -247,7 +293,6 @@ div.right span{
 
 .gemini_boxes{
   width: 30%;
-  /* height: 250px; */
   margin-top:25px;
   text-align: center;
   background-color: white;
@@ -312,7 +357,6 @@ div.gemini_boxes button{
 .third{
   background-color: #00B5AD;
   text-align: center;
-  height: 700px;
   color: white;
 }
 
@@ -328,7 +372,51 @@ section.third p{
   padding-top: 30px;
   padding-left: 250px;
   padding-right: 250px;
-  font-size: 19px;
+  padding-bottom: 90px;
+}
+
+.grid{
+  background-color: ;
+  margin-bottom: 150px;
+}
+
+.square{
+  width: calc(100% / 4);
+  height: 184px;
+  background-color: ;
+  border: 1px solid white;
+  border-top: none;
+  border-left: none;
+  text-align: center;
+  float:left;
+}
+
+.borderless{
+  border-bottom: none;
+}
+
+.lessright{
+  border-right: none;
+}
+
+div.square img{
+  padding-top: 15px;
+}
+
+div.square p{
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+}
+
+.p150{
+  font-size: 60px;
+  margin: 12px 0 12px 0;
+}
+
+.subtitle{
+  font-size: 15px;
 }
 
 
@@ -359,7 +447,6 @@ div.customers p{
 
 .logos{
   width: 55%;
-  /* height:200px; */
   background-color: ;
   float: left;
   margin-top: 110px;
@@ -380,7 +467,6 @@ div.logos img{
 
 /* fifth section */
 .fifth{
-  /* background-color: red; */
   color: #33475B;
 
 }
@@ -415,14 +501,12 @@ div.logos img{
 .girl-box{
   float: right;
   width: 55%;
-  /* height: 200px; */
   background-color: ;
   margin-top: 10px;
 }
 
 #girl{
   width: 350px;
-
   float: right;
 }
 
@@ -435,16 +519,12 @@ div.logos img{
 
 footer{
   width: 100%;
-  /* height: 650px; */
   background-color: #33475B;
   color: #CBD6DA;
 }
 
 .footer_list{
   width: calc(100% / 4);
-  /* height: 400px; */
-  /* background-color: red; */
-  /* border: 1px solid white; */
   float: left;
 }
 
@@ -455,6 +535,7 @@ div.footer_list ul{
  div.footer_list li:first-of-type{
    font-size: 20px;
    padding-top: 80px;
+   color: white;
  }
 div.footer_list ul li a{
   text-decoration: none;
@@ -478,8 +559,6 @@ div.footer_list button:first-of-type{
 .languages{
   width: 60%;
   margin: 0 auto;
-  /* height: 150px; */
-  /* background-color: red; */
   text-align: center;
 }
 
@@ -508,6 +587,7 @@ div.languages ul li a{
 
 #copy{
   font-size: 13px;
+  margin-bottom: 80px;
 
 
 
@@ -515,7 +595,6 @@ div.languages ul li a{
 
 .rel{
   position: relative;
-  height: 200px;
 }
 
 div.rel ul{
